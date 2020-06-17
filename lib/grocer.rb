@@ -9,7 +9,7 @@ end
 def consolidate_cart(cart)
   new_cart = []
   cart.map do |element|
-    if new_cart.include?(element) == false
+    if new_cart.element.include? == false
       new_cart.push(element)
       element[:count] = 1
     else
