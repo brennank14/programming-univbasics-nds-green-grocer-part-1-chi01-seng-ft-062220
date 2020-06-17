@@ -14,6 +14,7 @@ def consolidate_cart(cart)
       element.push[:count] => 1
     else
       element[:count] +=
+    end
   end
 
 
