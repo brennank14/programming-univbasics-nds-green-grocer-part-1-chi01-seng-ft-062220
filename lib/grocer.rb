@@ -16,6 +16,7 @@ def consolidate_cart(cart)
       element[:count] +=
     end
   end
+end
 
 
   # Consult README for inputs and outputs
@@ -23,4 +24,3 @@ def consolidate_cart(cart)
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
 
-end
