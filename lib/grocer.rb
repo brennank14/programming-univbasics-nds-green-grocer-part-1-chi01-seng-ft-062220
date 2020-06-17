@@ -16,6 +16,7 @@ def consolidate_cart(cart)
       element[:count] +=
     end
   end
+  new_cart
 end
 
 
