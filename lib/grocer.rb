@@ -1,7 +1,9 @@
 def find_item_by_name_in_collection(name, collection)
   collection.find do |element|
-    if element[:item] == name
-      return element
+    element.each do |key, value|
+      if element[key]==name
+        return element
+      end
     end
   end
 end
