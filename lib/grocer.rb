@@ -11,7 +11,7 @@ def consolidate_cart(cart)
   cart.map do |element|
     if new_cart.element.exist? == false
       new_cart.push(element)
-      element.push(count => 1)
+      element.push(:count => 1)
     else
       element[:count] +=
     end
