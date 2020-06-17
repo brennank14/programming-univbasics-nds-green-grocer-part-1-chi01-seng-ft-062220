@@ -1,6 +1,6 @@
 def find_item_by_name_in_collection(name, collection)
   collection.find do |element|
-    element.each do |key, value|
+    element.each do |key|
       if element[key]==name
         return element
       end
